@@ -1,39 +1,36 @@
 # Mahmoud Karzoun
 
-**Software Developer · Backend · Full-Stack · Applied AI/ML · Security-minded Engineering**
+**Software Engineer · Backend & Distributed Systems · Applied AI · Security-minded Engineering**
 
-I build practical software around real business rules, data integrity, authorization, automation, testing and deployment. My public portfolio is intentionally curated around engineering depth rather than repository count.
+I build production-shaped software around real business rules, durable state, authorization, automation, testing, observability and deployment. My public GitHub is curated to show engineering depth, not repository-count noise.
 
-## Start here
+## Flagship open-source work
 
-| Project | Engineering signal | Stack |
+| Project | What it demonstrates | Stack |
 |---|---|---|
-| [Abeer Inventory](https://github.com/mkarson1997/abeer-inventory-1.0.0) | Security-focused inventory system, RBAC, CSRF, audit trail, threat model, ADRs, backups, Docker and automated tests | Python · Flask · SQLite · Docker |
-| [CargoAPI](https://github.com/mkarson1997/CargoAPI) | Layered backend, carrier-selection business rules, EF Core, Hangfire, xUnit tests and green CI | .NET · EF Core · SQL Server · Hangfire · xUnit |
-| [Chest X-Ray CNN](https://github.com/mkarson1997/Chest_XRay_CNN_Projem) | ML pipeline, documented evaluation, model card, experiment protocol and green quality CI | Python · TensorFlow/Keras · scikit-learn |
-| [Karatay Schedule Builder](https://github.com/mkarson1997/karatay-ders-program) | Constraint-aware scheduling, privacy review, collision detection and automated scheduling-core tests | JavaScript · HTML · CSS · Node test |
-| [Digital East](https://github.com/mkarson1997/digital_east) | Arabic-first RTL responsive product implementation with automated static quality checks | HTML · CSS · JavaScript · Python CI |
-| [Restaurant Web App](https://github.com/mkarson1997/karzoun-lokantasi) | Multi-page customer journey across discovery, ordering and account flows | HTML · CSS · JavaScript |
+| [Karzoun FlowForge](https://github.com/mkarson1997/karzoun-flowforge) | Durable workflow runtime, DAG execution, retries, PostgreSQL persistence, distributed workers, leases, idempotency, OpenTelemetry and health/readiness contracts | TypeScript · PostgreSQL · OpenTelemetry |
+| [Karzoun SentinelAI](https://github.com/mkarson1997/karzoun-sentinel-ai) | Offline-first LLM evaluation, prompt-injection signals, groundedness baselines, secret redaction, JSONL datasets and regression quality gates | Python · Pytest · Ruff · Mypy |
+| [KARZOUN ERP](https://github.com/mkarson1997/KARZOUN_ERP) | Multilingual desktop ERP/CRM with Arabic RTL, MVVM, SQLite, PDF/Excel workflows, backup and recovery | C# · .NET 8 · WPF · EF Core · SQLite |
+| [Abeer Inventory](https://github.com/mkarson1997/abeer-inventory-1.0.0) | Security-focused inventory system with RBAC, CSRF protection, audit trails, threat modeling, backups, Docker and automated tests | Python · Flask · SQLite · Docker |
+| [CargoAPI](https://github.com/mkarson1997/CargoAPI) | Layered backend, carrier-selection business rules, EF Core, Hangfire, xUnit tests and CI | .NET · EF Core · SQL Server · Hangfire |
+| [Chest X-Ray CNN](https://github.com/mkarson1997/Chest_XRay_CNN_Projem) | Reproducible ML pipeline with documented evaluation, experiment protocol and model-card style reporting | Python · TensorFlow/Keras · scikit-learn |
 
-## Engineering toolkit
+## Engineering focus
 
-**Backend & APIs**  
-.NET · ASP.NET Core · Python · Flask · REST · background jobs · validation · layered architecture
-
-**Data**  
-PostgreSQL · SQL Server · SQLite · Entity Framework Core · relational modeling · integrity constraints
+**Distributed systems & backend**  
+Workflow engines · durable jobs · REST APIs · background processing · PostgreSQL · SQL Server · SQLite · Entity Framework Core · idempotency · concurrency control
 
 **Security**  
-RBAC · CSRF protection · session hardening · secure file handling · threat modeling · audit trails · security documentation
+RBAC · CSRF protection · session hardening · secure file handling · secret redaction · threat modeling · audit trails · dependency hygiene · security documentation
 
 **AI / ML**  
-TensorFlow · Keras · CNN workflows · evaluation · model documentation · reproducibility protocols
-
-**Frontend**  
-JavaScript · responsive UI · RTL · multilingual interfaces · accessibility-focused development
+LLM evaluation · AI regression testing · prompt-injection analysis · groundedness checks · TensorFlow/Keras · experiment reproducibility
 
 **Delivery & quality**  
-Docker · GitHub Actions · automated tests · CI · reproducible setup · technical documentation
+GitHub Actions · Docker · automated testing · strict typing · linting · reproducible dependency locks · observability · technical documentation
+
+**Frontend & product engineering**  
+TypeScript · JavaScript · WPF/XAML · multilingual UI · Arabic RTL · responsive interfaces · accessibility-minded implementation
 
 ## How I work
 
@@ -41,24 +38,16 @@ Docker · GitHub Actions · automated tests · CI · reproducible setup · techn
 Correctness → Security → Maintainability → Observability → User experience
 ```
 
-I prefer repositories that another engineer can understand, run, test and review without guessing what the code is supposed to do.
+I prefer repositories another engineer can clone, understand, run, test and review without guessing what the software is supposed to do. Strong projects include architecture notes, security policies, contribution guidance, automated quality gates, tracked roadmaps and explicit operational boundaries.
 
-## Open-source engineering
+## Current direction
 
-My public repositories are being curated as engineering case studies, not repository-count filler. The strongest projects include contribution guidance, security policies, licensing, pull-request workflows, automated quality gates, architecture records and tracked roadmaps.
-
-Recent portfolio work includes:
-
-- extracting testable scheduling logic and protecting it with automated tests,
-- removing unnecessary third-party transmission of user-entered data,
-- documenting security-critical architectural decisions and threat boundaries,
-- adding unit coverage around backend business rules and CI verification,
-- adding model cards and reproducibility requirements to ML work.
+I am expanding a language-by-language engineering portfolio built around real systems rather than tutorial clones: workflow infrastructure, AI evaluation, cloud/distributed systems, security tooling, business software and developer platforms.
 
 ## Links
 
-- [Portfolio](https://mkarson1997.github.io/mahmou-kar-cv/)
+- [Portfolio](https://www.mahmoudkarzoun.engineer)
 - [LinkedIn](https://tr.linkedin.com/in/mahmoud-karzoun-9764561a4)
 - [GitHub](https://github.com/mkarson1997)
 
-**Open to software engineering opportunities and open-source collaboration.**
+**Open to software engineering, backend, platform, DevOps and applied-AI opportunities, plus serious open-source collaboration.**
