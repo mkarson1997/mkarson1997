@@ -1,53 +1,60 @@
 # Mahmoud Karzoun
 
-**Software Engineer · Backend & Distributed Systems · Applied AI · Security-minded Engineering**
+**Software Engineer · Backend & Distributed Systems · Systems Programming · Applied AI**
 
-I build production-shaped software around real business rules, durable state, authorization, automation, testing, observability and deployment. My public GitHub is curated to show engineering depth, not repository-count noise.
+I build production-shaped software around durable state, concurrency, failure handling, security boundaries, observability, testing and reproducible delivery. My public GitHub is curated for engineering depth across multiple languages rather than repository-count noise.
 
-## Flagship open-source work
+## Flagship systems work
 
 | Project | What it demonstrates | Stack |
 |---|---|---|
-| [Karzoun FlowForge](https://github.com/mkarson1997/karzoun-flowforge) | Durable workflow runtime, DAG execution, retries, PostgreSQL persistence, distributed workers, leases, idempotency, OpenTelemetry and health/readiness contracts | TypeScript · PostgreSQL · OpenTelemetry |
-| [Karzoun SentinelAI](https://github.com/mkarson1997/karzoun-sentinel-ai) | Offline-first LLM evaluation, prompt-injection signals, groundedness baselines, secret redaction, JSONL datasets and regression quality gates | Python · Pytest · Ruff · Mypy |
-| [KARZOUN ERP](https://github.com/mkarson1997/KARZOUN_ERP) | Multilingual desktop ERP/CRM with Arabic RTL, MVVM, SQLite, PDF/Excel workflows, backup and recovery | C# · .NET 8 · WPF · EF Core · SQLite |
-| [Abeer Inventory](https://github.com/mkarson1997/abeer-inventory-1.0.0) | Security-focused inventory system with RBAC, CSRF protection, audit trails, threat modeling, backups, Docker and automated tests | Python · Flask · SQLite · Docker |
-| [CargoAPI](https://github.com/mkarson1997/CargoAPI) | Layered backend, carrier-selection business rules, EF Core, Hangfire, xUnit tests and CI | .NET · EF Core · SQL Server · Hangfire |
-| [Chest X-Ray CNN](https://github.com/mkarson1997/Chest_XRay_CNN_Projem) | Reproducible ML pipeline with documented evaluation, experiment protocol and model-card style reporting | Python · TensorFlow/Keras · scikit-learn |
+| [Karzoun FlowForge](https://github.com/mkarson1997/karzoun-flowforge) | Durable workflow runtime with DAG execution, retries, PostgreSQL state, distributed workers, leases, idempotency and OpenTelemetry | TypeScript · PostgreSQL · OpenTelemetry |
+| [Karzoun IronRoute](https://github.com/mkarson1997/karzoun-ironroute) | Adaptive edge gateway with health-aware routing, circuit breakers, bounded rate limiting, load shedding, HMAC request signing and operational telemetry | Rust · Tokio · Axum · Reqwest · Prometheus |
+| [Karzoun RelayGrid](https://github.com/mkarson1997/karzoun-relaygrid) | Partitioned event processing with bounded backpressure, FIFO semantics, PostgreSQL durability, fenced leases, retries and dead-letter handling | C# · .NET 10 · PostgreSQL · Testcontainers |
+| [Karzoun LedgerStream](https://github.com/mkarson1997/karzoun-ledgerstream) | Event-sourced double-entry ledger with deterministic replay, payload-bound idempotency, optimistic concurrency and transactional outbox delivery | Java 21 · PostgreSQL · Flyway · Testcontainers |
+| [Karzoun VectorForge](https://github.com/mkarson1997/karzoun-vectorforge) | Exact + graph ANN search, measurable recall/latency tradeoffs, validated binary persistence, concurrency and native release engineering | C++20 · CMake · ASan/UBSan · CodeQL |
+| [Karzoun KernWatch](https://github.com/mkarson1997/karzoun-kernwatch) | Linux eBPF telemetry with CO-RE/libbpf, ring-buffer transport, kernel/userspace trust boundaries and real privileged runtime verification | C · eBPF · libbpf · LLVM/Clang · CodeQL |
 
-## Engineering focus
+## Applied AI and product engineering
+
+| Project | What it demonstrates | Stack |
+|---|---|---|
+| [Karzoun SentinelAI](https://github.com/mkarson1997/karzoun-sentinel-ai) | Offline-first LLM evaluation, prompt-injection signals, groundedness baselines, secret redaction and regression quality gates | Python · Pytest · Ruff · Mypy |
+| [KARZOUN ERP](https://github.com/mkarson1997/KARZOUN_ERP) | Multilingual ERP/CRM product engineering with Arabic RTL, MVVM, persistence, document workflows and backup/recovery | C# · .NET · WPF · EF Core · SQLite |
+
+## Engineering themes
 
 **Distributed systems & backend**  
-Workflow engines · durable jobs · REST APIs · background processing · PostgreSQL · SQL Server · SQLite · Entity Framework Core · idempotency · concurrency control
+Durable workflows · event processing · event sourcing · transactional outbox · leases and fencing · idempotency · optimistic concurrency · backpressure · retries/dead-lettering · PostgreSQL
+
+**Systems & networking**  
+Rust async networking · C++ search infrastructure · Linux eBPF · CO-RE/libbpf · concurrency control · health-aware routing · circuit breaking · load shedding
 
 **Security**  
-RBAC · CSRF protection · session hardening · secure file handling · secret redaction · threat modeling · audit trails · dependency hygiene · security documentation
+HMAC request integrity · forwarding-identity trust boundaries · secure persistence parsing · dependency policy · RustSec · CodeQL · SonarQube Cloud · immutable GitHub Action pins · explicit threat/failure boundaries
 
 **AI / ML**  
-LLM evaluation · AI regression testing · prompt-injection analysis · groundedness checks · TensorFlow/Keras · experiment reproducibility
+LLM evaluation · AI regression testing · prompt-injection analysis · groundedness checks · sensitive-output redaction · reproducible evaluation datasets
 
 **Delivery & quality**  
-GitHub Actions · Docker · automated testing · strict typing · linting · reproducible dependency locks · observability · technical documentation
+GitHub Actions · Docker/GHCR · Testcontainers · sanitizers · multi-runtime/compiler matrices · SBOM/provenance · checksummed releases · technical architecture documentation
 
-**Frontend & product engineering**  
-TypeScript · JavaScript · WPF/XAML · multilingual UI · Arabic RTL · responsive interfaces · accessibility-minded implementation
-
-## How I work
+## How I approach engineering
 
 ```text
-Correctness → Security → Maintainability → Observability → User experience
+Correctness → Security → Failure semantics → Observability → Performance → User experience
 ```
 
-I prefer repositories another engineer can clone, understand, run, test and review without guessing what the software is supposed to do. Strong projects include architecture notes, security policies, contribution guidance, automated quality gates, tracked roadmaps and explicit operational boundaries.
+I prefer repositories another engineer can clone, understand, run, test and review without guessing what the software is supposed to do. Strong projects should make their invariants, tradeoffs and non-claims visible, not hide them behind a feature list.
 
-## Current direction
+## Portfolio direction
 
-I am expanding a language-by-language engineering portfolio built around real systems rather than tutorial clones: workflow infrastructure, AI evaluation, cloud/distributed systems, security tooling, business software and developer platforms.
+I am building a language-diverse engineering portfolio around real systems problems: workflow infrastructure, event processing, networking, kernel telemetry, vector search, accounting durability, AI evaluation and production-oriented business software.
 
 ## Links
 
 - [Portfolio](https://www.mahmoudkarzoun.engineer)
-- [LinkedIn](https://tr.linkedin.com/in/mahmoud-karzoun-9764561a4)
+- [LinkedIn](https://www.linkedin.com/in/mahmoud-karzoun/)
 - [GitHub](https://github.com/mkarson1997)
 
-**Open to software engineering, backend, platform, DevOps and applied-AI opportunities, plus serious open-source collaboration.**
+**Open to software engineering, backend, platform, systems, DevOps and applied-AI opportunities, plus serious open-source collaboration.**
