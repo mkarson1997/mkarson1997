@@ -53,7 +53,7 @@ I am building a language-diverse engineering portfolio around real systems probl
 
 ## Links
 
-- [Portfolio](https://www.mahmoudkarzoun.engineer)
+- [Portfolio](https://mahmoudkarzoun.engineer)
 - [LinkedIn](https://www.linkedin.com/in/mahmoud-karzoun/)
 - [GitHub](https://github.com/mkarson1997)
 
